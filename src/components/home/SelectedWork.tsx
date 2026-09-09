@@ -4,7 +4,7 @@ import { projects } from "@/data/projects";
 
 export function SelectedWork() {
   return (
-    <section id="work" className="scroll-mt-20 px-5 pb-16 sm:px-10 sm:pb-20 md:px-16 md:pb-24">
+    <section id="work" className="scroll-mt-20 px-5 pb-16 sm:px-10 sm:pb-20 md:px-20 md:pb-24">
       <Label className="mb-8 block">03 / Selected work</Label>
       <div className="border-t border-border-strong">
         {projects.map((project) => {

@@ -44,7 +44,7 @@ const STATS = [
 
 export function StatCards() {
   return (
-    <section className="grid grid-cols-2 gap-3 px-5 pb-16 sm:px-10 sm:pb-20 md:grid-cols-4 md:px-16 md:pb-24">
+    <section className="grid grid-cols-2 gap-3 px-5 pb-16 sm:px-10 sm:pb-20 md:grid-cols-4 md:px-20 md:pb-24">
       {STATS.map((stat) => (
         <div
           key={stat.label}

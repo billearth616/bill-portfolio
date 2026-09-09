@@ -1,20 +1,12 @@
-import Image from "next/image";
 import { CV_HREF, SOCIALS } from "@/data/site";
+import { HeroPhoto } from "@/components/home/HeroPhoto";
+import { SocialIcons } from "@/components/site/SocialIcons";
 
 export function Hero() {
   return (
-    <section className="dot-grid px-5 py-16 sm:px-10 sm:py-20 md:px-16 md:py-24">
+    <section className="dot-grid px-5 py-16 sm:px-10 sm:py-20 md:px-20 md:py-24">
       <div className="max-w-[640px]">
-        <div className="relative mb-7 h-16 w-16 overflow-hidden rounded border border-border-card bg-surface-muted sm:h-[72px] sm:w-[72px]">
-          <Image
-            src="/bill-photo.jpg"
-            alt="Bill Deyegbe"
-            fill
-            sizes="72px"
-            className="object-cover"
-            priority
-          />
-        </div>
+        <HeroPhoto />
         <p className="font-tracked mb-5 text-[11px] uppercase tracking-[0.14em] text-accent">
           Full-stack developer — Accra, Ghana
         </p>
@@ -38,6 +30,9 @@ export function Hero() {
           >
             Download CV
           </a>
+        </div>
+        <div className="mt-7">
+          <SocialIcons />
         </div>
       </div>
     </section>

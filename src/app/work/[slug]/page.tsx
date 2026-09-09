@@ -21,7 +21,7 @@ export default async function CaseStudyPage({
 
   return (
     <SiteChrome showBackLink>
-      <header className="dot-grid px-5 py-12 sm:px-10 sm:py-14 md:px-16 md:py-16">
+      <header className="dot-grid px-5 py-12 sm:px-10 sm:py-14 md:px-20 md:py-16">
         <Label className="mb-7 block">Work / {study.name}</Label>
         <p className="font-tracked mb-5 text-[11px] uppercase tracking-[0.14em] text-accent">
           {study.kicker}
@@ -34,7 +34,7 @@ export default async function CaseStudyPage({
         </p>
       </header>
 
-      <div className="grid grid-cols-2 gap-3 px-5 pb-12 sm:px-10 md:grid-cols-4 md:px-16 md:pb-14">
+      <div className="grid grid-cols-2 gap-3 px-5 pb-12 sm:px-10 md:grid-cols-4 md:px-20 md:pb-14">
         {study.meta.map((m) => (
           <div key={m.label} className="rounded border border-border bg-surface p-4">
             <div className="font-tracked mb-1.5 text-[9px] uppercase tracking-[0.14em] text-faint">
@@ -45,7 +45,7 @@ export default async function CaseStudyPage({
         ))}
       </div>
 
-      <div className="px-5 pb-12 sm:px-10 md:px-16 md:pb-16">
+      <div className="px-5 pb-12 sm:px-10 md:px-20 md:pb-16">
         <div className="flex h-[220px] items-center justify-center rounded border border-border-card bg-surface-muted sm:h-[320px] md:h-[460px]">
           <span className="font-tracked text-center text-[11px] uppercase tracking-[0.14em] text-faint">
             [ {study.heroCaption} ]
@@ -53,7 +53,7 @@ export default async function CaseStudyPage({
         </div>
       </div>
 
-      <section className="px-5 pb-12 sm:px-10 md:px-16 md:pb-16">
+      <section className="px-5 pb-12 sm:px-10 md:px-20 md:pb-16">
         <Label className="mb-6 block">01 / The problem</Label>
         <div className="max-w-[660px] text-lg leading-relaxed text-ink-body sm:text-[19px]">
           {study.problem.map((p, i) => (
@@ -64,7 +64,7 @@ export default async function CaseStudyPage({
         </div>
       </section>
 
-      <section className="px-5 pb-12 sm:px-10 md:px-16 md:pb-16">
+      <section className="px-5 pb-12 sm:px-10 md:px-20 md:pb-16">
         <Label className="mb-8 block">02 / What I built</Label>
         <div className="flex flex-col gap-9">
           {study.built.map((item) => (
@@ -90,7 +90,7 @@ export default async function CaseStudyPage({
         </div>
       </section>
 
-      <section className="px-5 pb-12 sm:px-10 md:px-16 md:pb-16">
+      <section className="px-5 pb-12 sm:px-10 md:px-20 md:pb-16">
         <Label className="mb-6 block">03 / How it&apos;s built</Label>
         <div className="max-w-[660px] text-lg leading-relaxed text-ink-body sm:text-[19px]">
           {study.howBuilt.map((p, i) => (
@@ -101,7 +101,7 @@ export default async function CaseStudyPage({
         </div>
       </section>
 
-      <section className="px-5 pb-12 sm:px-10 md:px-16 md:pb-16">
+      <section className="px-5 pb-12 sm:px-10 md:px-20 md:pb-16">
         <Label className="mb-6 block">04 / Outcome</Label>
         <div className="max-w-[660px] text-lg leading-relaxed text-ink-body sm:text-[19px]">
           {study.outcome.map((p, i) => (
@@ -110,7 +110,7 @@ export default async function CaseStudyPage({
         </div>
       </section>
 
-      <div className="flex flex-col gap-4 border-t border-border px-5 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-10 md:px-16">
+      <div className="flex flex-col gap-4 border-t border-border px-5 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-10 md:px-20">
         <Link href="/#work" className="font-tracked text-[11px] uppercase tracking-[0.14em] text-muted">
           ← All work
         </Link>

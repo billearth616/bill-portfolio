@@ -16,6 +16,7 @@ export function SiteChrome({
         <SiteHeader showBackLink={showBackLink} />
         {children}
       </div>
+      <aside className="hidden w-[340px] shrink-0 border-l border-border md:sticky md:top-0 md:block md:h-dvh" />
     </div>
   );
 }

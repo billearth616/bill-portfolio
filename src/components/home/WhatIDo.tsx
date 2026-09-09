@@ -21,7 +21,7 @@ const CAPABILITIES = [
 
 export function WhatIDo() {
   return (
-    <section className="px-5 pb-16 sm:px-10 sm:pb-20 md:px-16 md:pb-24">
+    <section className="px-5 pb-16 sm:px-10 sm:pb-20 md:px-20 md:pb-24">
       <Label className="mb-8 block">02 / What I do</Label>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-x-14 sm:gap-y-8">
         {CAPABILITIES.map((cap) => (

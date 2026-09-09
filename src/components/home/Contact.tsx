@@ -5,7 +5,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="dot-grid scroll-mt-20 border-t border-border px-5 py-14 sm:px-10 md:px-16 md:py-16"
+      className="dot-grid scroll-mt-20 border-t border-border px-5 py-14 sm:px-10 md:px-20 md:py-16"
     >
       <Label className="mb-7 block">04 / Contact</Label>
       <h2 className="font-display mb-4 text-3xl font-medium sm:text-[38px]">
