@@ -13,7 +13,7 @@ export function SiteHeader({ showBackLink = false }: { showBackLink?: boolean })
     <div className="border-b border-border md:hidden">
       <div className="flex items-center justify-between px-5 py-4">
         <Link href="/" className="font-display text-base font-semibold tracking-tight" onClick={() => setOpen(false)}>
-          Bill Deyegbe<span className="text-accent">.</span>
+          Bill Selikem<span className="text-accent">.</span>
         </Link>
         <button
           type="button"

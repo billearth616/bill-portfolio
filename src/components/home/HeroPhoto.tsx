@@ -29,7 +29,7 @@ export function HeroPhoto() {
       >
         <Image
           src="/bill-photo.jpg"
-          alt="Bill Deyegbe"
+          alt="Bill Selikem"
           fill
           sizes="72px"
           className="object-cover"
@@ -48,7 +48,7 @@ export function HeroPhoto() {
           >
             <Image
               src="/bill-photo.jpg"
-              alt="Bill Deyegbe"
+              alt="Bill Selikem"
               fill
               sizes="420px"
               className="object-cover"

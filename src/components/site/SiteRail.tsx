@@ -9,10 +9,10 @@ export function SiteRail({ showBackLink = false }: { showBackLink?: boolean }) {
     <aside className="hidden w-[340px] shrink-0 flex-col gap-9 border-r border-border px-7 py-10 md:sticky md:top-0 md:flex md:h-dvh">
       <div className="flex flex-col gap-3.5">
         <div className="relative h-11 w-11 overflow-hidden rounded border border-border-default bg-surface-muted">
-          <Image src="/bill-photo.jpg" alt="Bill Deyegbe" fill sizes="44px" className="object-cover" />
+          <Image src="/bill-photo.jpg" alt="Bill Selikem" fill sizes="44px" className="object-cover" />
         </div>
         <div className="font-display text-base font-semibold tracking-tight">
-          Bill Deyegbe<span className="text-accent">.</span>
+          Bill Selikem<span className="text-accent">.</span>
         </div>
       </div>
 

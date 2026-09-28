@@ -22,7 +22,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bill Deyegbe — Full-Stack Developer",
+  title: "Bill Selikem — Full-Stack Developer",
   description:
     "Full-stack developer in Accra, Ghana. Next.js and Supabase — authentication, role-based access, row-level security, and the admin tools that sit on top.",
 };
