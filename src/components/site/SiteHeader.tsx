@@ -10,7 +10,7 @@ export function SiteHeader({ showBackLink = false }: { showBackLink?: boolean })
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="border-b border-border md:hidden">
+    <div className="border-b border-border lg:hidden">
       <div className="flex items-center justify-between px-5 py-4">
         <Link href="/" className="font-display text-base font-semibold tracking-tight" onClick={() => setOpen(false)}>
           Bill Selikem<span className="text-accent">.</span>

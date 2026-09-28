@@ -6,8 +6,8 @@ import { ThemeToggle } from "@/components/site/ThemeToggle";
 
 export function SiteRail({ showBackLink = false }: { showBackLink?: boolean }) {
   return (
-    <aside className="hidden w-[340px] shrink-0 flex-col gap-9 border-r border-border px-7 py-10 md:sticky md:top-0 md:flex md:h-dvh">
-      <div className="flex flex-col gap-3.5">
+    <aside className="hidden w-[240px] shrink-0 flex-col items-end gap-9 border-r border-border px-7 pt-20 pb-10 text-right lg:sticky lg:top-0 lg:flex lg:h-dvh xl:w-[280px]">
+      <div className="flex flex-col items-end gap-3.5">
         <div className="relative h-11 w-11 overflow-hidden rounded border border-border-default bg-surface-muted">
           <Image src="/bill-photo.jpg" alt="Bill Selikem" fill sizes="44px" className="object-cover" />
         </div>
@@ -16,7 +16,7 @@ export function SiteRail({ showBackLink = false }: { showBackLink?: boolean }) {
         </div>
       </div>
 
-      <nav className="flex flex-col gap-3">
+      <nav className="flex flex-col items-end gap-3">
         {NAV_LINKS.map((link) => (
           <Link
             key={link.href}
@@ -39,7 +39,7 @@ export function SiteRail({ showBackLink = false }: { showBackLink?: boolean }) {
 
       <SocialIcons />
 
-      <div className="mt-auto flex flex-col gap-3.5">
+      <div className="mt-auto flex flex-col items-end gap-3.5">
         <span className="font-tracked text-[9px] uppercase tracking-[0.14em] text-faint">
           Theme
         </span>

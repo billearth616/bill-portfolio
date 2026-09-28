@@ -10,13 +10,13 @@ export function SiteChrome({
   showBackLink?: boolean;
 }) {
   return (
-    <div className="mx-auto flex min-h-dvh max-w-[1440px] flex-col md:flex-row">
+    <div className="mx-auto flex min-h-dvh max-w-[1440px] flex-col lg:flex-row 2xl:max-w-[1600px]">
       <SiteRail showBackLink={showBackLink} />
       <div className="min-w-0 flex-1">
         <SiteHeader showBackLink={showBackLink} />
         {children}
       </div>
-      <aside className="hidden w-[340px] shrink-0 border-l border-border md:sticky md:top-0 md:block md:h-dvh" />
+      <aside className="hidden w-[280px] shrink-0 border-l border-border 2xl:sticky 2xl:top-0 2xl:block 2xl:h-dvh" />
     </div>
   );
 }

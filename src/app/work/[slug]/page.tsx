@@ -34,7 +34,7 @@ export default async function CaseStudyPage({
         </p>
       </header>
 
-      <div className="grid grid-cols-2 gap-3 px-5 pb-12 sm:px-10 md:grid-cols-4 md:px-20 md:pb-14">
+      <div className="grid grid-cols-2 gap-3 px-5 pb-12 sm:px-10 xl:grid-cols-4 md:px-20 md:pb-14">
         {study.meta.map((m) => (
           <div key={m.label} className="rounded border border-border bg-surface p-4">
             <div className="font-tracked mb-1.5 text-[9px] uppercase tracking-[0.14em] text-faint">
